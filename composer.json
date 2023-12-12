@@ -1,0 +1,31 @@
+{
+	"name": "jfinstrom/freepbx-devfork",
+	"description": "Forks a FreePBX Module to your github account and pulls it to the local machine",
+	"type": "project",
+	"require": {
+		"symfony/console": "^7.0",
+		"knplabs/github-api": "^3.13",
+		"gitonomy/gitlib": "^1.3",
+		"symfony/http-client": "^7.0",
+		"nyholm/psr7": "^1.8"
+	},
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Jfinstrom\\FreepbxDevclone\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "James Finstrom"
+		}
+	],
+	"scripts": {
+		"devfork": "php bin/devfork"
+	},
+	"config": {
+		"allow-plugins": {
+			"php-http/discovery": true
+		}
+	}
+}

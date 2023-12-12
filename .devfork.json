@@ -1,0 +1,10 @@
+{
+    "github": {
+        "username": "your_username",
+        "token": "your_personal_access_token"
+    },
+    "paths": {
+        "clone": "/usr/src/",
+        "web": "/var/www/html/admin/modules"
+    }
+}
